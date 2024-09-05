@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/ashesbloom/Portfolio",
-  "name": "Portfolio",
+  "homepage": "https://github.com/ashesbloom/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +26,7 @@
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.70.0",
     "save-dev": "^0.0.1-security",
+    "typescript": "4.9.5",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -58,7 +59,6 @@
     "gh-pages": "^6.1.1",
     "nth-check": "^2.1.1",
     "postcss": ">=8.4.31",
-    "react-scripts": "^5.0.1",
-    "typescript": "^5.4.2"
+    "react-scripts": "^5.0.1"
   }
 }
