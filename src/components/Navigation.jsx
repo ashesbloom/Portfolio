@@ -18,13 +18,13 @@ function Navigation() {
       <div className={isNavExpanded ? "nav-bar expanded" : "nav-bar"}>
         <ul>
           <li className="nav-item">
-            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/portfol">
+            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/ashesbloom/portfolio">
               Home
               <span className="sr-only">(current)</span>
             </NavLink>
           </li><div className="divider-bar" />
           <li className="nav-item">
-            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/portfol/about">
+            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/ashesbloom/portfolio/about">
               About
             </NavLink>
           </li><div className="divider-bar" />
@@ -41,7 +41,7 @@ function Navigation() {
             </NavLink>
           </li><div className="divider-bar" />
           <li className="nav-item">
-            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/portfol/contact">
+            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/ashesbloom/portfolio/contact">
               Contact
             </NavLink>
           </li>
