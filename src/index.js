@@ -18,10 +18,10 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/ashesbloom/portfolio" element={<Home />} />
-      <Route path="/ashesbloom/portfolio/about" element={<About />} />
-      <Route path="/ashesbloom/portfolio/contact" element={<Contact />} />
-      <Route path="/ashesbloom/portfolio/blog" element={<Blog />}>
+      <Route path="/portfolio" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
