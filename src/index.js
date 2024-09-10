@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { BrowserRouter as Router,Route, Routes } from "react-router-dom";
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import * as serviceWorker from "./serviceWorker";
 import {
@@ -19,7 +19,7 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/portfolio" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>

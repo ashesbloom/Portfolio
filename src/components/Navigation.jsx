@@ -18,7 +18,7 @@ function Navigation() {
       <div className={isNavExpanded ? "nav-bar expanded" : "nav-bar"}>
         <ul>
           <li className="nav-item">
-            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/portfolio">
+            <NavLink className="nav-link" onClick={() => { setIsNavExpanded(!isNavExpanded) }} to="/">
               Home
               <span className="sr-only">(current)</span>
             </NavLink>
