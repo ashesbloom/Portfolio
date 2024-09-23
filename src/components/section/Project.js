@@ -135,7 +135,7 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Carhire</h2>
+            <h2>ACRUX</h2>
           </a>
           <p>
             ACRUX is a user-friendly music streaming website designed to offer an immersive experience with abstract visuals. It currently allows users to stream music in both MP3 and FLAC formats, featuring two albums—Smithereens and Nectar by Japanese artist JOJI for testing purposes.

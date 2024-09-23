@@ -73,6 +73,7 @@ function Hero() {
             src="https://i.ibb.co/rmfQr74/Whats-App-Image-2024-08-19-at-8-57-44-PM.jpg"
             alt="Mayank's Profile image"
             width="20%"
+            style={{ borderRadius: "12%" }}
           />
         </div>
       </div>
