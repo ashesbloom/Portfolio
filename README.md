@@ -1,1 +1,1 @@
-[Preview >](https://ashesbloom.github.io/portfolio/#/portfolio)
+[Preview >](https://ashesbloom.github.io/portfolio/)
